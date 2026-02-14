@@ -2,6 +2,8 @@
 
 #SingleInstance Force
 
+fullscreenExecutables := []
+
 ; AutoHotkey processes #Include at parse time and does not expand runtime variables.
 #Include \\wsl.localhost\FedoraLinux-42\home\him\my\sys\mswin\sys-ahk\extensions\global.ahk
 #Include \\wsl.localhost\FedoraLinux-42\home\him\my\sys\mswin\sys-ahk\extensions\window-mgmt.ahk
